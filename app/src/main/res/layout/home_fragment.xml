@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+  android:layout_marginTop="50dp"
+    >
+    <ExpandableListView
+        android:id="@+id/expandableListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="0dp"
+        android:groupIndicator="@null"
+        android:divider="@null"
+        android:childDivider="@null"
+       android:padding="0dp"
+      android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:indicatorStart="0dp"
+
+
+        />
+
+<!--    android:listSelector="#76C6F8"-->
+</LinearLayout>
+
+<!--    76C6F8-->
