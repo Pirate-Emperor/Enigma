@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SecretMessaging" parent="Theme.AppCompat.Light.NoActionBar" >
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#FFFFFF</item>
+        <item name="colorPrimaryVariant">#FFFFFF</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#FFFFFF</item>
+        <item name="colorSecondaryVariant">#F2FFFFFF</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+<!--&lt;!&ndash;&lt;!&ndash;        &lt;!&ndash; Status bar color. &ndash;&gt;&ndash;&gt;&ndash;&gt;-->
+<!--        <item name="android:windowTranslucentStatus">true</item>-->
+<!--        <item name="android:windowTranslucentNavigation">true</item>-->
+<!--         <item name="android:fitsSystemWindows">true</item>-->
+<!--        <item name="android:windowDrawsSystemBarBackgrounds">true</item>-->
+
+<!--        <item name="android:statusBarColor">#FFFFFF</item>-->
+<!--        &lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+    </style>
+</resources>
+
+<!--    anil bhia rawal-->
